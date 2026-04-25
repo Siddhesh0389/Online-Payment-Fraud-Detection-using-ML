@@ -1,10 +1,10 @@
-💳 Online Payments Fraud Detection System
+# 💳 Online Payments Fraud Detection System
 
-📌 1. Introduction
-🔹 Project Overview
+## 📌 1. Introduction
+
+🔹 Project Overview: 
 
 This project focuses on identifying fraudulent online financial transactions using Machine Learning techniques. With the rapid growth of digital payments, ensuring transaction security has become critically important.
-
 The system uses a trained classification model integrated into a Flask-based web application. Users can input transaction details and instantly receive predictions indicating whether a transaction is Fraudulent or Legitimate.
 
 🎯 Purpose
@@ -16,11 +16,10 @@ Not Fraud
 
 This helps enhance digital payment security and reduce financial risks.
 
-📚 2. Literature Survey
+## 📚 2. Literature Survey
+
 ⚠️ Existing Problem
-
 Traditional fraud detection systems:
-
 Generate high false positives
 Fail to adapt to new fraud patterns
 Reduce customer trust
@@ -34,8 +33,8 @@ Decision Tree
 Random Forest
 Support Vector Machine (SVM)
 Extra Trees Classifier
-🧠 Problem Statement
 
+🧠 Problem Statement
 Design a Machine Learning system to classify transactions using:
 
 Transaction step
@@ -43,33 +42,34 @@ Type
 Amount
 Account balances
 
-💡 3. Ideation & Proposed Solution
+## 💡 3. Ideation & Proposed Solution
 🧍 Empathy Map
 Users fear financial loss
 Demand secure systems
 Need fast and accurate fraud detection
 ⚙️ Proposed Solution
-S.No	Parameter	Description
-1	Problem	Detect fraud in increasing online transactions
-2	Solution	ML model + Flask web app for real-time prediction
-3	Uniqueness	Simple UI + accurate ML predictions
-4	Impact	Reduces fraud & increases trust
-5	Business Model	API / Subscription for banks
-6	Scalability	Cloud deployment support
 
-📋 4. Requirement Analysis
+1.	Problem	Detect fraud in increasing online transactions
+2.	Solution	ML model + Flask web app for real-time prediction
+3.	Uniqueness	Simple UI + accurate ML predictions
+4.	Impact	Reduces fraud & increases trust
+5.	Business Model	API / Subscription for banks
+6.	Scalability	Cloud deployment support
+
+## 📋 4. Requirement Analysis
 ✅ Functional Requirements
 Accept transaction details
 Process and transform data
 Predict fraud
 Display results
+
 ⚡ Non-Functional Requirements
 Fast performance
 User-friendly UI
 Reliable system
 Secure data handling
 
-🏗 5. Project Design
+## 🏗 5. Project Design
 🔄 Data Flow
 
 User → Web UI → Flask Backend → ML Model → Result
@@ -90,7 +90,7 @@ Frontend (HTML, CSS)
 Backend (Flask)
 ML Model (.pkl)
 
-⚙️ 6. Project Planning
+## ⚙️ 6. Project Planning
 🛠 Tech Stack
 Python
 Flask
@@ -105,7 +105,7 @@ Phase	Task	Duration
 4	Frontend	4 Days
 5	Testing	3 Days
 
-💻 7. Implementation
+## 💻 7. Implementation
 🔹 Features
 Prediction API (/pred)
 Data preprocessing
@@ -119,7 +119,7 @@ Type
 Amount
 Balance
 
-📈 8. Performance Metrics
+## 📈 8. Performance Metrics
 Accuracy
 Precision
 Recall
@@ -127,7 +127,7 @@ F1-Score
 
 ⚠️ Focus on Recall & F1-score due to imbalanced data.
 
-📊 9. Results
+## 📊 9. Results
 
 The system successfully predicts fraud transactions.
 
@@ -137,7 +137,7 @@ Home Page
 Prediction Page
 Result Page
 
-✅ 10. Advantages & Disadvantages
+## ✅ 10. Advantages & Disadvantages
 ✔ Advantages
 Real-time prediction
 Easy to use
@@ -147,11 +147,11 @@ Needs retraining
 Possible false positives
 Model performance may degrade
 
-🏁 11. Conclusion
+## 🏁 11. Conclusion
 
 This project demonstrates how Machine Learning improves financial security by detecting fraud efficiently through a web-based system.
 
-🔮 12. Future Scope
+## 🔮 12. Future Scope
 Real-time streaming detection
 Banking system integration
 Admin dashboard
