@@ -173,6 +173,6 @@ git clone <your-repo-link>
 cd project-folder
 pip install -r requirements.txt
 python app.py
-⭐ Author
 
+⭐ Author
 Siddhesh D. Patil
