@@ -42,6 +42,7 @@ Transaction step
 Type
 Amount
 Account balances
+
 💡 3. Ideation & Proposed Solution
 🧍 Empathy Map
 Users fear financial loss
@@ -55,6 +56,7 @@ S.No	Parameter	Description
 4	Impact	Reduces fraud & increases trust
 5	Business Model	API / Subscription for banks
 6	Scalability	Cloud deployment support
+
 📋 4. Requirement Analysis
 ✅ Functional Requirements
 Accept transaction details
@@ -66,6 +68,7 @@ Fast performance
 User-friendly UI
 Reliable system
 Secure data handling
+
 🏗 5. Project Design
 🔄 Data Flow
 
@@ -86,6 +89,7 @@ Three-Tier Architecture:
 Frontend (HTML, CSS)
 Backend (Flask)
 ML Model (.pkl)
+
 ⚙️ 6. Project Planning
 🛠 Tech Stack
 Python
@@ -100,6 +104,7 @@ Phase	Task	Duration
 3	Backend	5 Days
 4	Frontend	4 Days
 5	Testing	3 Days
+
 💻 7. Implementation
 🔹 Features
 Prediction API (/pred)
@@ -113,6 +118,7 @@ Step
 Type
 Amount
 Balance
+
 📈 8. Performance Metrics
 Accuracy
 Precision
@@ -130,6 +136,7 @@ Outputs:
 Home Page
 Prediction Page
 Result Page
+
 ✅ 10. Advantages & Disadvantages
 ✔ Advantages
 Real-time prediction
@@ -139,6 +146,7 @@ Automated fraud detection
 Needs retraining
 Possible false positives
 Model performance may degrade
+
 🏁 11. Conclusion
 
 This project demonstrates how Machine Learning improves financial security by detecting fraud efficiently through a web-based system.
