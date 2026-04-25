@@ -49,12 +49,12 @@ Demand secure systems
 Need fast and accurate fraud detection
 ⚙️ Proposed Solution
 
-1.	Problem	Detect fraud in increasing online transactions
-2.	Solution	ML model + Flask web app for real-time prediction
-3.	Uniqueness	Simple UI + accurate ML predictions
-4.	Impact	Reduces fraud & increases trust
-5.	Business Model	API / Subscription for banks
-6.	Scalability	Cloud deployment support
+#### 1.	Problem	Detect fraud in increasing online transactions
+#### 2.	Solution	ML model + Flask web app for real-time prediction
+#### 3.	Uniqueness	Simple UI + accurate ML predictions
+#### 4.	Impact	Reduces fraud & increases trust
+#### 5.	Business Model	API / Subscription for banks
+#### 6.	Scalability	Cloud deployment support
 
 ## 📋 4. Requirement Analysis
 ✅ Functional Requirements
@@ -76,12 +76,12 @@ User → Web UI → Flask Backend → ML Model → Result
 
 👤 User Stories
 ID	Story	Priority
-US-1	View Home Page	High
-US-2	Open Prediction Page	High
-US-3	Enter Data	High
-US-4	Submit Data	High
-US-5	View Result	High
-US-6	Input Validation	Medium
+#### US-1	View Home Page	High
+#### US-2	Open Prediction Page	High
+#### US-3	Enter Data	High
+#### US-4	Submit Data	High
+#### US-5	View Result	High
+#### US-6	Input Validation	Medium
 🧩 Architecture
 
 Three-Tier Architecture:
@@ -142,6 +142,7 @@ Result Page
 Real-time prediction
 Easy to use
 Automated fraud detection
+
 ❌ Disadvantages
 Needs retraining
 Possible false positives
@@ -157,8 +158,8 @@ Banking system integration
 Admin dashboard
 Cloud deployment (AWS/Heroku)
 Database integration
-📊 Dataset
 
+📊 Dataset
 Dataset not included due to size. Download from:
 👉 https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset
 
@@ -166,6 +167,7 @@ Place inside:
 
 data/
  └── PS_20174392719_1491204439457_log.csv
+ 
 🚀 How to Run
 git clone <your-repo-link>
 cd project-folder
